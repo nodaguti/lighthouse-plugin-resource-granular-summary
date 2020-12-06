@@ -1,0 +1,11 @@
+{
+  "name": "lighthouse-plugin-resources-granular-summary",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "git@github.com:nodaguti/lighthouse-plugin-resources-granular-summary.git",
+  "author": "nodaguti <nodaguti@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
+}
