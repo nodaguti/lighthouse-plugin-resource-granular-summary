@@ -1,11 +1,15 @@
 {
-  "name": "lighthouse-plugin-resources-granular-summary",
+  "name": "lighthouse-plugin-resource-granular-summary",
   "version": "0.1.0",
-  "main": "index.js",
-  "repository": "git@github.com:nodaguti/lighthouse-plugin-resources-granular-summary.git",
+  "main": "plugin.js",
+  "repository": "git@github.com:nodaguti/lighthouse-plugin-resource-granular-summary.git",
   "author": "nodaguti <nodaguti@gmail.com>",
   "license": "MIT",
+  "peerDependencies": {
+    "lighthouse": "^6.5.0"
+  },
   "devDependencies": {
+    "lighthouse": "^6.5.0",
     "prettier": "^2.2.1"
   }
 }
