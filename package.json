@@ -16,6 +16,7 @@
     "prettier": "^2.2.1"
   },
   "scripts": {
+    "lint": "prettier --check **/*.{js,json,md}",
     "test": "NODE_PATH=.. jest"
   }
 }
