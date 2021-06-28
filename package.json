@@ -6,13 +6,13 @@
   "author": "nodaguti <nodaguti@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
-    "lighthouse": "^7.1.0"
+    "lighthouse": "^8.0.0"
   },
   "devDependencies": {
     "chrome-launcher": "^0.14.0",
     "jest": "^27.0.6",
     "jsonpath": "^1.1.1",
-    "lighthouse": "^7.1.0",
+    "lighthouse": "^8.0.0",
     "prettier": "^2.2.1"
   },
   "scripts": {
