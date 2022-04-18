@@ -6,17 +6,17 @@
   "author": "nodaguti <nodaguti@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
-    "lighthouse": "^7.1.0"
+    "lighthouse": "^9.5.0"
   },
   "devDependencies": {
-    "chrome-launcher": "^0.14.0",
+    "chrome-launcher": "^0.15.0",
     "jest": "^27.0.6",
     "jsonpath": "^1.1.1",
-    "lighthouse": "^7.1.0",
-    "prettier": "^2.2.1"
+    "lighthouse": "^9.5.0",
+    "prettier": "^2.6.2"
   },
   "scripts": {
     "lint": "prettier --check **/*.{js,json,md}",
-    "test": "NODE_PATH=.. jest"
+    "test": "NODE_PATH=.. jest --detectOpenHandles"
   }
 }

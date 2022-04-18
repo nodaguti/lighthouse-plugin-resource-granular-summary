@@ -8,6 +8,7 @@ class ResourceGranularSummaryAudit extends Audit {
     return {
       id: 'resource-granular-summary',
       title: 'Granular summary of network resources',
+      failureTitle: 'cannot track network request',
       description: 'A slightly more granular summary of network resources.',
       requiredArtifacts: ['devtoolsLogs', 'URL'],
     };
