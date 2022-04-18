@@ -37,6 +37,7 @@ test('Collects network records and summarises them', async () => {
     'other',
     'total',
   ];
+
   const resourceTypes = jsonpath.query(
     lhrResult,
     "$['audits']['resource-granular-summary']['details']['items']..['resourceType']",
